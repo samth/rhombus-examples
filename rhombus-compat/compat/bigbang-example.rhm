@@ -1,0 +1,11 @@
+#lang rhombus
+
+import:
+  lib("racket/base.rkt") as base
+  rhombus/compat/bigbang:
+    open
+
+bigbang 1:
+ draw: base.list
+ tick: base.add1
+  
